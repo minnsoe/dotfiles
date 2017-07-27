@@ -1,0 +1,7 @@
+[user]
+	email = contributions@minn.io
+	name = Minn Soe
+[core]
+	editor = emacs -nw
+[help]
+	autocorrect = 30
