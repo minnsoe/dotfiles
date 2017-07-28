@@ -1,7 +1,8 @@
-[user]
-	email = contributions@minn.io
-	name = Minn Soe
+[include]
+	path = .gitconfig.local
+
 [core]
 	editor = emacs -nw
+
 [help]
 	autocorrect = 30
