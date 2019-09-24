@@ -1,22 +1,8 @@
 DOTFILES_BASE=$HOME/dotfiles
 
-source $HOME/.zsh/antigen/antigen.zsh
-
-antigen use oh-my-zsh
-antigen theme simple
-
-## Load macOS specific bundles
-if [[ $OSTYPE == darwin* ]]; then
-  antigen bundle osx
+## Load each zsh file if .zshrc.d folder exists
+if [ -d $HOME/.zshrc.d ]; then
+  for file in $HOME/.zshrc.d/*; do
+    source $file
+  done
 fi
-
-## Batch load bundles
-antigen bundles <<EOBUNDLES
-  zsh-users/zsh-completions
-  zsh-users/zsh-syntax-highlighting
-  zsh-users/zsh-autosuggestions
-  git
-EOBUNDLES
-
-## Must be run after loading the bundles to finalise
-antigen apply
