@@ -15,6 +15,7 @@ antigen bundles <<EOBUNDLES
   zsh-users/zsh-autosuggestions
   git
   pyenv
+  nvm
 EOBUNDLES
 
 ## Must be run after loading the bundles to finalise
