@@ -47,6 +47,7 @@ This function should only modify configuration layer settings."
      lsp
      markdown
      multiple-cursors
+     osx
      puppet
      python
      ;; org
@@ -462,7 +463,7 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
 This function is called only while dumping Spacemacs configuration. You can
 `require' or `load' the libraries of your choice that will be included in the
 dump."
-  )
+  (setq-default mac-right-option-modifier nil))
 
 (defun dotspacemacs/user-config ()
   "Configuration for user code:
