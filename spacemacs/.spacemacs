@@ -44,6 +44,7 @@ This function should only modify configuration layer settings."
      emacs-lisp
      git
      helm
+     javascript
      lsp
      markdown
      multiple-cursors
@@ -57,6 +58,7 @@ This function should only modify configuration layer settings."
      ;; spell-checking
      ;; syntax-checking
      treemacs
+     typescript
      ;; version-control
      yaml
      )
