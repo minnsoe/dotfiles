@@ -44,7 +44,9 @@ This function should only modify configuration layer settings."
      emacs-lisp
      git
      helm
-     javascript
+     (javascript :variables
+                 js2-basic-offset 2
+                 js-indent-level 2)
      lsp
      markdown
      multiple-cursors
