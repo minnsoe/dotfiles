@@ -1,8 +1,9 @@
 [include]
-	path = .gitconfig.local
+	path = ~/.gitconfig.local
 
 [core]
-	editor = emacs -nw
+	editor = emacsclient
+	excludesfile = ~/.gitignore_global
 
 [help]
 	autocorrect = 15
