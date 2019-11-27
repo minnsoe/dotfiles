@@ -43,6 +43,7 @@ This function should only modify configuration layer settings."
      better-defaults
      emacs-lisp
      git
+     groovy
      helm
      html
      (javascript :variables
@@ -53,7 +54,9 @@ This function should only modify configuration layer settings."
      multiple-cursors
      osx
      puppet
-     python
+     (python :variables
+             python-backend 'lsp
+             python-test-runner 'pytest)
      ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
@@ -222,7 +225,7 @@ It should only modify the values of Spacemacs settings."
 
    ;; Default font or prioritized list of fonts.
    dotspacemacs-default-font '("Source Code Pro"
-                               :size 10.0
+                               :size 13.0
                                :weight normal
                                :width normal)
 
