@@ -13,6 +13,7 @@ antigen bundles <<EOBUNDLES
   zsh-users/zsh-completions
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-autosuggestions
+  ssh-agent
   git
   pyenv
   nvm
