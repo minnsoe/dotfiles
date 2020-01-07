@@ -43,6 +43,7 @@ This function should only modify configuration layer settings."
      better-defaults
      emacs-lisp
      git
+     go
      groovy
      helm
      html
