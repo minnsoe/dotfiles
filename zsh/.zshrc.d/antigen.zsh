@@ -1,7 +1,6 @@
 source $HOME/.zsh/antigen/antigen.zsh
 
 antigen use oh-my-zsh
-antigen theme simple
 
 ## Load macOS specific bundles
 if [[ $OSTYPE == darwin* ]]; then
