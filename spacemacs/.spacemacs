@@ -207,8 +207,8 @@ It should only modify the values of Spacemacs settings."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press `SPC T n' to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(doom-one
-                         doom-dracula
+   dotspacemacs-themes '(doom-dracula
+                         doom-one
                          spacemacs-light)
 
    ;; Set the theme for the Spaceline. Supported themes are `spacemacs',
@@ -225,15 +225,15 @@ It should only modify the values of Spacemacs settings."
    dotspacemacs-colorize-cursor-according-to-state t
 
    ;; Default font or prioritized list of fonts.
-   dotspacemacs-default-font '("Source Code Pro"
-                               :size 13.0
+   dotspacemacs-default-font '("FiraMono Nerd Font"
+                               :size 12.0
                                :weight normal
                                :width normal)
 
    ;; The leader key (default "SPC")
    dotspacemacs-leader-key "SPC"
 
-   ;; The key used for Emacs commands `M-x' (after pressing on the leader key).
+   ;; The key used for Emacs commands `M-x' (after pressing on the leader Key).
    ;; (default "SPC")
    dotspacemacs-emacs-command-key "SPC"
 
