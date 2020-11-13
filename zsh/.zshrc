@@ -1,5 +1,11 @@
 DOTFILES_BASE=$HOME/dotfiles
 
+autoload -Uz compinit
+for dump in ~/.zcompdump(N.mh+24); do
+    compinit
+done
+compinit -C
+
 # Load each zsh file if .zshrc.d folder exists
 if [ -d $HOME/.zshrc.d ]; then
   for file in $HOME/.zshrc.d/*.zsh; do

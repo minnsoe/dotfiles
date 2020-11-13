@@ -1,0 +1,9 @@
+Aloxaf/fzf-tab
+
+zsh-users/zsh-completions
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+
+ohmyzsh/ohmyzsh path:plugins/ssh-agent
+ohmyzsh/ohmyzsh path:plugins/pyenv
+ohmyzsh/ohmyzsh path:plugins/nvm
