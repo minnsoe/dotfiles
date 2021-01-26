@@ -6,4 +6,7 @@
 	excludesfile = ~/.gitignore_global
 
 [help]
-	autocorrect = 15
+	autocorrect = 12
+
+[pull]
+	ff = only
