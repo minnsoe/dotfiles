@@ -1,5 +1,8 @@
 # -*- mode: gitignore; -*-
 
+### dotfiles ###
+*.private.*
+
 ### Emacs ###
 *~
 \#*\#
