@@ -1,15 +1,33 @@
 # dotfiles
 
-This repository contains dotfiles which are used to configure my personal development
-environment.
+A set of configuration files (aka dotfiles) for a variety of system tools, utilities
+and editors.
 
-Run `stow --no-folding ${APP_NAME}` to symlink configuration into its parent directory.
-Configuration files with user specific values are stored in files ending with
-`.local`, use a copy of the example file as a base for your own.
+## Installation
+
+There are no stability or backwards compatibility guarantees as these dotfiles are
+part of my personal set of configuation which I have maintained over the years.
+
+Try them out and use it as inspiration for your own; a good set of personal dotfiles
+can help you feel at home!
+
+Follow [chezmoi][chezmoi]'s installation [instructions][chezmoi-install] for your
+operating system and then run the following:
+
+``` sh
+chezmoi init https://github.com/minnsoe/dotfiles
+```
+
+Run `chezmoi diff` to see what changes will be applied. If you are happy with the
+proposed changes, run `chezmoi apply` to make it happen.
 
 ## License
 
-The MIT License (MIT)
-Copyright (c) 2018 Minn Soe
+Copyright © 2018–present, Minn Soe
 
-A full copy of the license is provided in the [LICENSE](./LICENSE) file.
+This project is MIT licensed. A full copy of the license is provided in the
+[LICENSE](./LICENSE) file.
+
+
+[chezmoi]: https://github.com/twpayne/chezmoi
+[chezmoi-install]: https://github.com/twpayne/chezmoi/blob/master/docs/INSTALL.md
