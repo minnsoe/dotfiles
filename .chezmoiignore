@@ -1,2 +1,4 @@
 *.local
 zsh_plugins.zsh
+README.md
+LICENSE
