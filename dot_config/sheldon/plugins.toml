@@ -29,10 +29,6 @@ github = 'zsh-users/zsh-completions'
 github = 'ohmyzsh/ohmyzsh'
 dir = 'plugins/direnv'
 
-[plugins.fnm]
-github = 'ohmyzsh/ohmyzsh'
-dir = 'plugins/fnm'
-
 [plugins.pyenv]
 github = 'ohmyzsh/ohmyzsh'
 dir = 'plugins/pyenv'
