@@ -10,25 +10,15 @@
 #
 # See the documentation for more https://github.com/rossmacarthur/sheldon#readme
 
+shell = 'zsh'
+
 [plugins]
-
-[plugins.fast-syntax-highlighting]
-github = 'zdharma-continuum/fast-syntax-highlighting'
-
-[plugins.fzf-tab]
-github = 'Aloxaf/fzf-tab'
-
-[plugins.zsh-autosuggestions]
-github = 'zsh-users/zsh-autosuggestions'
-use = ['{{ name }}.zsh']
 
 [plugins.zsh-completions]
 github = 'zsh-users/zsh-completions'
 
-[plugins.direnv]
-github = 'ohmyzsh/ohmyzsh'
-dir = 'plugins/direnv'
+[plugins.fzf-tab]
+github = 'Aloxaf/fzf-tab'
 
-[plugins.pyenv]
-github = 'ohmyzsh/ohmyzsh'
-dir = 'plugins/pyenv'
+[plugins.fast-syntax-highlighting]
+github = 'zdharma-continuum/fast-syntax-highlighting'
